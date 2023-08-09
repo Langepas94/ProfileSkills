@@ -15,7 +15,7 @@
 
 
 # СТЕК: 
-● UIcollectionViewLayout
+● UIcollectionViewLayout  
 ● DiffableDataSource  
 ● UserDefaults (propertyWrapper)  
 ● MVVM + AssemblyBuilder
