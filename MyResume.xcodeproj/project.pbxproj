@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		447E9CD42A835F8F00A0A9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CD32A835F8F00A0A9FD /* AppDelegate.swift */; };
 		447E9CD62A835F8F00A0A9FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CD52A835F8F00A0A9FD /* SceneDelegate.swift */; };
-		447E9CD82A835F8F00A0A9FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CD72A835F8F00A0A9FD /* ViewController.swift */; };
+		447E9CD82A835F8F00A0A9FD /* MainResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CD72A835F8F00A0A9FD /* MainResumeViewController.swift */; };
 		447E9CDB2A835F8F00A0A9FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447E9CD92A835F8F00A0A9FD /* Main.storyboard */; };
 		447E9CDD2A835F9000A0A9FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447E9CDC2A835F9000A0A9FD /* Assets.xcassets */; };
 		447E9CE02A835F9000A0A9FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447E9CDE2A835F9000A0A9FD /* LaunchScreen.storyboard */; };
+		447E9CE82A8364C500A0A9FD /* ResumeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CE72A8364C500A0A9FD /* ResumeItem.swift */; };
+		447E9CEA2A8365BB00A0A9FD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CE92A8365BB00A0A9FD /* HeaderView.swift */; };
+		447E9CEC2A83666A00A0A9FD /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CEB2A83666A00A0A9FD /* SkillCell.swift */; };
+		447E9CEE2A8369BF00A0A9FD /* ResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CED2A8369BF00A0A9FD /* ResumeViewModel.swift */; };
+		447E9CF02A8369E600A0A9FD /* MainScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CEF2A8369E600A0A9FD /* MainScreenModel.swift */; };
+		447E9CF22A836FE700A0A9FD /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CF12A836FE700A0A9FD /* FooterView.swift */; };
+		447E9CF42A83B71100A0A9FD /* AddSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CF32A83B71100A0A9FD /* AddSkillCell.swift */; };
+		447E9CF62A83C30200A0A9FD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CF52A83C30200A0A9FD /* ProfileHeaderView.swift */; };
+		447E9CF82A83D00000A0A9FD /* SectionBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CF72A83D00000A0A9FD /* SectionBackground.swift */; };
+		447E9CFA2A83D30C00A0A9FD /* UserDefaultsPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9CF92A83D30C00A0A9FD /* UserDefaultsPropertyWrapper.swift */; };
+		447E9D012A83EB0C00A0A9FD /* MyAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9D002A83EB0C00A0A9FD /* MyAppearance.swift */; };
+		447E9D042A83EBB700A0A9FD /* MainScreenModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9D032A83EBB700A0A9FD /* MainScreenModelProtocol.swift */; };
+		447E9D062A83EC4B00A0A9FD /* ResumeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9D052A83EC4B00A0A9FD /* ResumeViewModelProtocol.swift */; };
+		447E9D0B2A83F3B100A0A9FD /* ResumeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E9D0A2A83F3B100A0A9FD /* ResumeAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		447E9CD02A835F8F00A0A9FD /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		447E9CD32A835F8F00A0A9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		447E9CD52A835F8F00A0A9FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		447E9CD72A835F8F00A0A9FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		447E9CD72A835F8F00A0A9FD /* MainResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResumeViewController.swift; sourceTree = "<group>"; };
 		447E9CDA2A835F8F00A0A9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		447E9CDC2A835F9000A0A9FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447E9CDF2A835F9000A0A9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447E9CE12A835F9000A0A9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447E9CE72A8364C500A0A9FD /* ResumeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeItem.swift; sourceTree = "<group>"; };
+		447E9CE92A8365BB00A0A9FD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		447E9CEB2A83666A00A0A9FD /* SkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		447E9CED2A8369BF00A0A9FD /* ResumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewModel.swift; sourceTree = "<group>"; };
+		447E9CEF2A8369E600A0A9FD /* MainScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModel.swift; sourceTree = "<group>"; };
+		447E9CF12A836FE700A0A9FD /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		447E9CF32A83B71100A0A9FD /* AddSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSkillCell.swift; sourceTree = "<group>"; };
+		447E9CF52A83C30200A0A9FD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		447E9CF72A83D00000A0A9FD /* SectionBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackground.swift; sourceTree = "<group>"; };
+		447E9CF92A83D30C00A0A9FD /* UserDefaultsPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsPropertyWrapper.swift; sourceTree = "<group>"; };
+		447E9D002A83EB0C00A0A9FD /* MyAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppearance.swift; sourceTree = "<group>"; };
+		447E9D032A83EBB700A0A9FD /* MainScreenModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenModelProtocol.swift; sourceTree = "<group>"; };
+		447E9D052A83EC4B00A0A9FD /* ResumeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewModelProtocol.swift; sourceTree = "<group>"; };
+		447E9D0A2A83F3B100A0A9FD /* ResumeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,85 @@
 		447E9CD22A835F8F00A0A9FD /* MyResume */ = {
 			isa = PBXGroup;
 			children = (
+				447E9CFE2A83EAA500A0A9FD /* Utility */,
+				447E9CFB2A83EA2900A0A9FD /* MainResumeScreen */,
 				447E9CD32A835F8F00A0A9FD /* AppDelegate.swift */,
 				447E9CD52A835F8F00A0A9FD /* SceneDelegate.swift */,
-				447E9CD72A835F8F00A0A9FD /* ViewController.swift */,
 				447E9CD92A835F8F00A0A9FD /* Main.storyboard */,
 				447E9CDC2A835F9000A0A9FD /* Assets.xcassets */,
 				447E9CDE2A835F9000A0A9FD /* LaunchScreen.storyboard */,
 				447E9CE12A835F9000A0A9FD /* Info.plist */,
 			);
 			path = MyResume;
+			sourceTree = "<group>";
+		};
+		447E9CFB2A83EA2900A0A9FD /* MainResumeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				447E9CFF2A83EAB600A0A9FD /* Models */,
+				447E9CFD2A83EA9400A0A9FD /* ViewModel */,
+				447E9CFC2A83EA7000A0A9FD /* Views */,
+				447E9CD72A835F8F00A0A9FD /* MainResumeViewController.swift */,
+				447E9D0A2A83F3B100A0A9FD /* ResumeAssembly.swift */,
+			);
+			path = MainResumeScreen;
+			sourceTree = "<group>";
+		};
+		447E9CFC2A83EA7000A0A9FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				447E9D0C2A83F61100A0A9FD /* SupportViews */,
+				447E9CF52A83C30200A0A9FD /* ProfileHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		447E9CFD2A83EA9400A0A9FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				447E9CED2A8369BF00A0A9FD /* ResumeViewModel.swift */,
+				447E9D052A83EC4B00A0A9FD /* ResumeViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		447E9CFE2A83EAA500A0A9FD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				447E9CF92A83D30C00A0A9FD /* UserDefaultsPropertyWrapper.swift */,
+				447E9D002A83EB0C00A0A9FD /* MyAppearance.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		447E9CFF2A83EAB600A0A9FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				447E9D022A83EBA700A0A9FD /* Protocols */,
+				447E9CE72A8364C500A0A9FD /* ResumeItem.swift */,
+				447E9CEF2A8369E600A0A9FD /* MainScreenModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		447E9D022A83EBA700A0A9FD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				447E9D032A83EBB700A0A9FD /* MainScreenModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		447E9D0C2A83F61100A0A9FD /* SupportViews */ = {
+			isa = PBXGroup;
+			children = (
+				447E9CEB2A83666A00A0A9FD /* SkillCell.swift */,
+				447E9CF32A83B71100A0A9FD /* AddSkillCell.swift */,
+				447E9CE92A8365BB00A0A9FD /* HeaderView.swift */,
+				447E9CF72A83D00000A0A9FD /* SectionBackground.swift */,
+				447E9CF12A836FE700A0A9FD /* FooterView.swift */,
+			);
+			path = SupportViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447E9CD82A835F8F00A0A9FD /* ViewController.swift in Sources */,
+				447E9CEA2A8365BB00A0A9FD /* HeaderView.swift in Sources */,
+				447E9D0B2A83F3B100A0A9FD /* ResumeAssembly.swift in Sources */,
+				447E9D042A83EBB700A0A9FD /* MainScreenModelProtocol.swift in Sources */,
+				447E9CEC2A83666A00A0A9FD /* SkillCell.swift in Sources */,
+				447E9CD82A835F8F00A0A9FD /* MainResumeViewController.swift in Sources */,
+				447E9CF42A83B71100A0A9FD /* AddSkillCell.swift in Sources */,
+				447E9CF22A836FE700A0A9FD /* FooterView.swift in Sources */,
+				447E9D012A83EB0C00A0A9FD /* MyAppearance.swift in Sources */,
+				447E9D062A83EC4B00A0A9FD /* ResumeViewModelProtocol.swift in Sources */,
+				447E9CF62A83C30200A0A9FD /* ProfileHeaderView.swift in Sources */,
+				447E9CFA2A83D30C00A0A9FD /* UserDefaultsPropertyWrapper.swift in Sources */,
 				447E9CD42A835F8F00A0A9FD /* AppDelegate.swift in Sources */,
+				447E9CF82A83D00000A0A9FD /* SectionBackground.swift in Sources */,
 				447E9CD62A835F8F00A0A9FD /* SceneDelegate.swift in Sources */,
+				447E9CEE2A8369BF00A0A9FD /* ResumeViewModel.swift in Sources */,
+				447E9CF02A8369E600A0A9FD /* MainScreenModel.swift in Sources */,
+				447E9CE82A8364C500A0A9FD /* ResumeItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +403,6 @@
 				INFOPLIST_FILE = MyResume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +429,6 @@
 				INFOPLIST_FILE = MyResume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
