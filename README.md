@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
-  td {
-    width: 25%;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
-  }
-</style>
 </head>
 <body>
 
@@ -37,6 +24,7 @@
   </tr>
   <tr>
     <td>
+      <h1>-Мое резюме-</h1>
       <img src="https://user-images.githubusercontent.com/108129792/259515224-91a36008-f6d2-4726-979e-aef22084f9f8.gif" alt="Гифка 1">
     </td>
     <td>
