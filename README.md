@@ -27,7 +27,7 @@
     <th>Удаление элементов из UserDefaults</th>
   </tr>
   <tr>
-    <td style="text-align: center; padding: 10px; border: 1px solid black; width: 25%;">
+    <td style="text-align: center; padding: 0px; border: 1px solid black; width: 25%;">
       <img src="https://user-images.githubusercontent.com/108129792/259515224-91a36008-f6d2-4726-979e-aef22084f9f8.gif" alt="Гифка 1" style="width: 100%; height: auto;">
     </td>
     <td style="text-align: center; padding: 10px; border: 1px solid black; width: 25%;">
