@@ -1,17 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
-  th, td {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
-  }
-</style>
 <head>
 
 </head>
