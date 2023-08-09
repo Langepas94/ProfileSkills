@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
 
-  td {
-    width: 25%;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
-  }
-</style>
 </head>
 <body>
 
